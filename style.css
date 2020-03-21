@@ -8,6 +8,7 @@ body {
 }
 
 form {
+    margin-top: 10px;
     /* Set margins such that contact form fills middle of screen */
     margin-left: 25%;
     margin-right: 25%;
