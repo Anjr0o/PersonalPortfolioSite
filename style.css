@@ -9,13 +9,16 @@ body {
 }
 
 form {
+    /* Set margins such that contact form fills middle of screen */
     margin-left: 25%;
     margin-right: 25%;
+    /* Set flex properties such that the input fields fill the whole space of the form no matter what size it is */
     display: flex;
     flex-wrap: wrap;
 }
 
 .evenSpacedFields {
+    /* Set flex properties to grow evenly with other fields in its lines */
     flex-grow: 1;
     width: 47.5%;
     height: 30px;
