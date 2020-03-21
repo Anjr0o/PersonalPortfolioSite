@@ -17,6 +17,12 @@ form {
     flex-wrap: wrap;
 }
 
+::placeholder {
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .evenSpacedFields {
     /* Set flex properties to grow evenly with other fields in its lines */
     flex-grow: 1;
