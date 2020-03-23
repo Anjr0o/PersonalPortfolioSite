@@ -50,9 +50,7 @@ form {
 }
 
 ::placeholder {
-    padding: 10px;
     font-style: italic;
-    /* font-weight: bold; */
 }
 
 .evenSpacedFields {
@@ -63,9 +61,14 @@ form {
     margin: 5px;
 }
 
+input {
+    padding: 10px;
+}
+
 textarea {
     width: 100%;
     margin: 5px;
+    padding: 10px;
 }
 
 #submitButton {
