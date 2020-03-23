@@ -52,7 +52,7 @@ form {
 ::placeholder {
     padding: 10px;
     font-style: italic;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .evenSpacedFields {
