@@ -12,10 +12,13 @@ var timerId = 0;
 // invokes delayLinks function
 delayLinks(0);
 
-$( '#section-stop a' ).click(function(event) { 
-    event.preventDefault();
-    clearTimeout(timerId); 
-});
+// on spacebar stop the loop
+document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+        event.preventDefault();
+        clearTimeout(timerId); 
+    }
+}
 
 $( '#navbar-1 li a' ).click(function(event) {
     event.preventDefault();
