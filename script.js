@@ -1,5 +1,5 @@
 // **** AutoScroll + ScrollSpy ****
-var CORRECTION = 50;  // height of the navbar 
+var CORRECTION = 0;  // height of the navbar 
 // don't forget to setup the data-offset attribute of the <body> tag
 
 var DELAY_READING = 4000; // 4 seconds = 4000; 10 seconds = 10000
