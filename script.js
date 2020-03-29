@@ -9,24 +9,28 @@ var DELAY_SCROLLING = 1500;
 var links = ['#section-start', '#section-green', '#section-blue', '#section-red',  '#extra-section', '#section-stop'];
 var timerId = 0;
 
+// invokes delayLinks function
 delayLinks(0);
 
 $( '#section-stop a' ).click(function(event) { 
-  event.preventDefault();
-  clearTimeout(timerId); 
+    event.preventDefault();
+    clearTimeout(timerId); 
 });
 
 $( '#navbar-1 li a' ).click(function(event) {
-  event.preventDefault();
-  scrollToLink( $(this).attr('href') );
+    event.preventDefault();
+    scrollToLink( $(this).attr('href') );
 });
 
+// 
 function delayLinks( i ) {
-  if( i >= links.length ) i = 0;
-  scrollToLink( links[i] );
-  
-  var next = ( i == links.length - 1 ? 0 : i + 1);
-  timerId = setTimeout(function() { delayLinks( next ) }, DELAY_READING ); 
+    // if you're at the end of links, go back to the beginning
+    if( i >= links.length ) i = 0;
+    // invokes scrollToLink
+    scrollToLink( links[i] );
+    // set next variable to 0 if it's at the end, or sets it to i + 1 if not);
+    var next = ( i == links.length - 1 ? 0 : i + 1);
+    timerId = setTimeout(function() { delayLinks( next ) }, DELAY_READING ); 
 }
 
 function scrollToLink( link ) {
