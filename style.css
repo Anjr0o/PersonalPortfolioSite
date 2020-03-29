@@ -17,15 +17,6 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 }
 
-#welcome {
-    text-align: center;
-    margin-left: 40%;
-    margin-right: 40%;
-    width: 20%;
-    margin-top: 15%;
-    margin-bottom: 25%;
-}
-
 body {
     margin: 0;
   }
@@ -140,4 +131,28 @@ body, html {
     width: 100% !important;
 }
 
-@media only screen and (max-width: 400px) {}
+.welcome {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+    height: 80%;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+background-color: #111;
+color: #fff;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+}
