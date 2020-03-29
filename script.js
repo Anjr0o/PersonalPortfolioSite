@@ -16,7 +16,8 @@ delayLinks(0);
 document.body.onkeyup = function(e){
     if(e.keyCode == 32){
         event.preventDefault();
-        clearTimeout(timerId); 
+        clearTimeout(timerId);
+        $("nav.navbar-default").hide();
     }
 }
 
@@ -25,7 +26,6 @@ $( '#navbar-1 li a' ).click(function(event) {
     scrollToLink( $(this).attr('href') );
 });
 
-// 
 function delayLinks( i ) {
     // if you're at the end of links, go back to the beginning
     if( i >= links.length ) i = 0;
