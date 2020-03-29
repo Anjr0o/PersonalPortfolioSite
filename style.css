@@ -39,8 +39,13 @@ body {
     padding: 20px;
   }
   
-  #section-red {height: 280px !important;}
-  #section-green { background: #9c6; color: #cf9; }
+  #section-red {height: 280
+    
+    px !important;}
+  
+  #parallaxiframe {
+      bakground: white;
+  }  ection-green { background: #9c6; color: #cf9; }
   #section-blue  { background: #69c; color: #9cf; }
   #section-red   { background: #c69; color: #f9c; }
 /* ^^Styling for auto scroll feature^^ */
