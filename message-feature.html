@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Andrew Stokes - Features I've Made</title>
+        <title>Andrew Stokes - Message Me</title>
         <!-- Required meta tags for Bootstrap -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,23 +10,30 @@
         <link rel="stylesheet" href="style.css" />
         <!-- <script type="text/javascript" src="script.js"></script> -->
     </head>
-    <body class="parallax">
-        <header>FEATURES I'VE MADE</header>
-        <!-- Adds Bootstrap Tabs component -->
-        <ul class="nav nav-tabs justify-content-end">
-            <li class="nav-item"><a href="who-i-am.html" class="nav-link">Who I Am</a></li>
-            <li class="nav-item"><a href="features-i've-made.html" class="nav-link active">Features I've Made</a></li>
-            <li class="nav-item"><a href="message-me.html" class="nav-link">Message Me</a></li>
-        </ul>
+    <body class=parallax>
+        <header>CONTACT</header>
+        
+        <form action="https://formspree.io/xaybodnp" method="POST">
+            <!-- First Name Field -->
+            <input id="firstName" class="evenSpacedFields" type="text" name="firstName" value="" placeholder="First Name" />
+            <!-- Last name Field -->
+            <input id="lastName" class="evenSpacedFields" type="text" name="lastName" value="" placeholder="Last Name" />
+            <br />
+            <!-- Email Field -->
+            <input id="email" class="evenSpacedFields" type="email" name="email" value="" placeholder="Email" />
+            <!-- Phone Number Field -->
+            <input id="phoneNumber" class="evenSpacedFields" type="tel" name="phoneNumber" value="" placeholder="Phone Number" />
+            <br />
+            <!-- Message Field -->
+            <textarea rows="20" name="message" value="" placeholder="Message"></textarea>
+            <!-- Submit Button -->
+            <input id="submitButton" type="submit" value="Submit" />
+        </form>
 
-        <p id="welcome">Welcome!</p>
-        <iframe src="autoscroll-feature.html" width=33.1% height=400px></iframe>
-        <iframe src="parallax-feature.html" width=33.1% height=400px></iframe>
-        <iframe src="message-feature.html" width=33.1% height=400px></iframe>
         <!-- Adds JQuery and Bootstrap Scripts -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="script.js" ></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

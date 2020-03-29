@@ -40,7 +40,8 @@ body {
     opacity: .5;
   }
   
-  #section-red {height: 280px !important;}
+  #section-red {height: 280px;}
+  .autoscroll {height: 800px !important;}
   #section-green { background: #9c6; color: #cf9; }
   #section-blue  { background: #69c; color: #9cf; }
   #section-red   { background: #c69; color: #f9c; }
