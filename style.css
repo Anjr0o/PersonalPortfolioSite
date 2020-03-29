@@ -132,3 +132,5 @@ body, html {
     color: black;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 400px) {}
