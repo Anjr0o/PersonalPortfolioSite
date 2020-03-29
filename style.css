@@ -36,9 +36,10 @@ body {
   #section-red,
   #section-stop {
     height: 800px;
-    padding: 10px 20px;
+    padding: 20px;
   }
   
+  #section-red {height: 280px !important;}
   #section-green { background: #9c6; color: #cf9; }
   #section-blue  { background: #69c; color: #9cf; }
   #section-red   { background: #c69; color: #f9c; }
@@ -131,6 +132,10 @@ body, html {
     border-bottom-right-radius: .5rem;
     color: black;
     font-weight: bold;
+}
+
+.LI-badge-container.horizontal.dark {
+    width: 100% !important;
 }
 
 @media only screen and (max-width: 400px) {}
