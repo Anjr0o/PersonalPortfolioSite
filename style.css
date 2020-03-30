@@ -99,10 +99,17 @@ body, html {
 .nav-tabs {
     border-bottom: none;
     float: right;
+    
   }
 
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    background-color: gray;
+    color: white;
+    border: gray;
+}
+
 .nav-tabs .nav-link {
-    color: black;
+    color: white;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-top: white;
@@ -112,7 +119,7 @@ body, html {
 
 .nav-tabs .nav-link.active {
     background-color: white;
-    border-color: #dee2e6;
+    border-color: white;
     border-top: white;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
