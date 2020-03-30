@@ -100,8 +100,16 @@ body, html {
     p {
         width: 100% !important;
     }
+    form {
+        width: 100% !important;
+        margin: 0 !important;
+    }
 }
 
+#message-feature-form {
+    width: 100%;
+    margin: 0;
+}
 .parallax {
     /* The image used */
     background-image: url("img/img_parallax.jpg");
