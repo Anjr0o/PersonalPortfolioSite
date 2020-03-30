@@ -7,18 +7,12 @@ header {
     /* font-weight: bold; */
     background-color: white;
     font-style: italic;
-}
-
-/* Create Secondary header */
-p {
-    font-size: 3em;
-    background-color: black;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 /* styling for auto scroll feature */ 
@@ -32,9 +26,9 @@ body {
   
   #section-red {height: 280px;}
   .autoscroll {height: 800px !important;}
-  #section-green { background: rgb(153, 204, 102, 0.75); color: #cf9; }
-  #section-blue  { background: rgba(102, 153, 204, 0.75); color: #9cf; }
-  #section-red   { background: rgba(204, 102, 153, 0.75); color: #f9c, 0.1; }
+  #section-green { background: rgb(153, 204, 102, 0.85); color: #303336 }
+  #section-blue  { background: rgba(102, 153, 204, 0.85); color: #303336 }
+  #section-red   { background: rgba(204, 102, 153, 0.85); color: #303336 }
 
 /* ^^Styling for auto scroll feature^^ */
 
@@ -166,4 +160,7 @@ iframe {
     flex-grow: 1;
     margin: 5px;
     border: none;
+}
+p { 
+    width: 50%;
 }
