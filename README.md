@@ -35,4 +35,6 @@ Instructions to install and run:
 
     5. Leave me any feedback you like in the Message Me tab
 
+You can also view the site on Netlify [here](https://anjr0o.netlify.com).  Try it on mobile!
+
 -Anjr0o
