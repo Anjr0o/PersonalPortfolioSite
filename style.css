@@ -28,14 +28,14 @@ body {
   #section-stop {
     height: 800px;
     padding: 20px;
-    opacity: .5;
   }
   
   #section-red {height: 280px;}
   .autoscroll {height: 800px !important;}
-  #section-green { background: #9c6; color: #cf9; }
-  #section-blue  { background: #69c; color: #9cf; }
-  #section-red   { background: #c69; color: #f9c; }
+  #section-green { background: rgb(153, 204, 102, 0.75); color: #cf9; }
+  #section-blue  { background: rgba(102, 153, 204, 0.75); color: #9cf; }
+  #section-red   { background: rgba(204, 102, 153, 0.75); color: #f9c, 0.1; }
+
 /* ^^Styling for auto scroll feature^^ */
 
 form {
@@ -138,7 +138,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 5%;
-    height: 80%;
+    height: 70%;
 }
 .caption {
     position: absolute;
@@ -155,4 +155,14 @@ color: #fff;
 padding: 18px;
 font-size: 25px;
 letter-spacing: 10px;
+}
+
+#iframes {
+    display: flex;
+}
+
+iframe {
+    flex-grow: 1;
+    margin: 5px;
+    border: none;
 }
