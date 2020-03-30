@@ -124,6 +124,14 @@ body, html {
     background-size: cover;
   }
 
+#message-body {
+    background-image: url("img/alt_background2.jpg")
+}
+
+#autoscroll-body {
+    background-image: url("img/alt_background1.jpg")
+}
+
 .nav-tabs {
     border-bottom: none;
     float: right;
@@ -200,4 +208,10 @@ iframe {
 
 p { 
     width: 50%;
+}
+
+img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
