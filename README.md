@@ -29,7 +29,7 @@ Instructions to install and run:
 
     2. Unzip file into a folder on your computer
 
-    3. Open who-i-am.html in your browser (it should be at the bottom)
+    3. Open index.html in your browser (it should be at the bottom)
 
     4. Explore!
 
